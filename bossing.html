@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Maplestory Bossing</title>
+    <h1><strong>Bossing Income</strong></h1>
+  </head>
+  <p1 style="display:flex; justify-content: center; align-items: center;font-size: larger;">Boss Mules:</p1>
+  <body>
+    <ul id="bossMules">
+
+    </ul>
+    <br />
+    <div id="buttons">
+      <button id="addNewMule">Add New</button>
+      <button id="deleteMule">Delete Mule</button>
+    </div>
+    <dialog id="muleName">
+      <p>Enter IGN:</p>
+      <input placeholder="Mule name"></form>
+      <button id="ignSubmit">Submit</button>
+      <br />
+      
+      <button id="closeMule">Close</button>
+    </dialog>
+
+    <dialog id="initialAdd" open>
+      <p style="font-size: 25px; margin-left: 75px; margin-top: -5px">
+        Bosses Cleared
+      </p>
+
+      <br />
+      <div id="dialogButtons">
+        <button id="craBtn"><img src="Vellum.png" /><br />CRA</button>
+        <button id="lomienBtn"><img src="Lotus.png" /><br />Lomien</button>
+        <button id="luwillBtn"><img src="Lucid.png" /><br />Luwill</button>
+        <button id="cteneBtn"><img src="Darknell.png" /><br />Ctene</button>
+      </div>
+      <br />
+      <button id="closeBtn">Close</button>
+    </dialog>
+  </body>
+  <script src="bossing.js"></script>
+</html>
