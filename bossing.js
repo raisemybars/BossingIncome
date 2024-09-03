@@ -26,7 +26,6 @@ const lomienBtn = document.querySelector("#lomienBtn");
 const luwillBtn = document.querySelector("#luwillBtn");
 const cteneBtn = document.querySelector("#cteneBtn");
 
-asdf
 
 
 
