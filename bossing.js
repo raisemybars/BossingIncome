@@ -14,7 +14,7 @@ dialogCloseBoss.addEventListener("click", () => {
 });
 
 dialogCloseMule.addEventListener("click", () => {
-  muleName.close();
+  muleIGN.close();
 });
 
 ignSubmit.addEventListener("click", () => {
